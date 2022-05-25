@@ -1,13 +1,13 @@
 //컴포넌트는 구성요소
 
 import React from 'react';
-import {SafeAreaView,View,Text} from 'react-native'; //특별한 컴포넌트들
+import {SafeAreaView} from 'react-native'; //특별한 컴포넌트들
 import Greeting from './components/Greeting';
 
 const App=()=>{
 return(
     <SafeAreaView>
-        <Greeting/>
+        <Greeting name="Props"/>
     </SafeAreaView>
 );
 };
