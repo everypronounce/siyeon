@@ -2,7 +2,7 @@
 import React from 'react';
 import {Button,SafeAreaView,ToastAndroid,Text} from 'react-native'; //특별한 컴포넌트들
 
-const time='17:26';
+const time='20:33';
 const date=new Date();
 
 console.log(date.getHours()+":"+date.getMinutes());
