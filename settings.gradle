@@ -10,7 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
-rootProject.name = "AlarmApp"
+rootProject.name = "alarm"
 include ':app'

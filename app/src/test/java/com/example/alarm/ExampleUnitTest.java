@@ -1,4 +1,4 @@
-package com.example.alarmapp;
+package com.example.alarm;
 
 import org.junit.Test;
 
